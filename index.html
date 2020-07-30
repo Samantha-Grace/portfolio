@@ -196,10 +196,15 @@
 
 
 
-    <form action="mailto: sgrace732@gmail.com">
+    <form class="contact-form" action="Post" method="post" data-netlify="true">
       <input name="name" type="text" class="feedback-input" placeholder="Name" />
       <input name="email" type="text" class="feedback-input" placeholder="Email" />
       <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <div class="field"> <input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7" />
+      </div>
+      <div class="field">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
       <input type="submit" value="SUBMIT" />
     </form>
 
@@ -225,6 +230,11 @@
           <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/samanthagagen1986"
             target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1"
             href="https://github.com/Samantha-Grace" target="_blank"><i class="fab fa-fw fa-github"></i></a></a>
+
+          <a class="btn btn-outline-light btn-social mx-1" href="mailto: sgrace732@gmail.com" target="_blank"><i
+              class="fas fa-envelope"></i></a>
+
+
         </div>
         <!-- Footer About Text-->
         <div class="col-lg-4">
@@ -237,7 +247,7 @@
   <!-- Copyright Section-->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small class="pre-wrap">Copyright ©SG 2020 </small>
+      <small class="pre-wrap">This site was created using bootstrap, html and css. Copyright ©SG 2020 </small>
     </div>
   </section>
   <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
