@@ -9828,6 +9828,13 @@ a.text-dark:focus {
   }
 }
 
+
+.descriptionport {
+  font-size: 1.05rem;
+  color: #6a879e;
+}
+
+
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
