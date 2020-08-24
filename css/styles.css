@@ -9834,6 +9834,7 @@ a.text-dark:focus {
 
 .descriptionport {
   font-size: 1.05rem;
+  text-align: center;
   color: #6a879e;
 }
 
